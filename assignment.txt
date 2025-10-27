@@ -1,0 +1,9 @@
+def is_palindrome_number(n):
+    return str(n) == str(n)[::-1]
+
+# Example usage
+num = int(input("Enter a number: "))
+if is_palindrome_number(num):
+    print("✅ It's a palindrome number!")
+else:
+    print("❌ Not a palindrome number.")
